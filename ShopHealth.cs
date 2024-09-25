@@ -42,7 +42,7 @@ namespace ShopHealth
         {
             if (JsonHealth == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Доп. здоровье");
+            SHOP_API.CreateCategory(CategoryName, "Р”РѕРї. Р·РґРѕСЂРѕРІСЊРµ");
 
             var sortedItems = JsonHealth
                 .Properties()
